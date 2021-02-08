@@ -263,14 +263,14 @@ body{
 }
 @media (max-width:1260px){
     .container{
-        width: 1040px;
+        max-width: 1040px;
         margin: 0 auto;
     }
     
 }
 @media (max-width:1080px){
     .container{
-        width: 940px;
+        max-width: 940px;
         margin: 0 auto;
     }
     .ishlaymiz .container{  
@@ -280,7 +280,7 @@ body{
 }
 @media (max-width:980px){
     .container{
-        width: 840px;
+        max-width: 840px;
         margin: 0 auto;
     }
     .ishlaymiz .container{  
@@ -294,7 +294,7 @@ body{
         margin: 0 auto;
     }
     .ishlaymiz .container{  
-        width: 740px;
+        max-width: 740px;
         margin: 0 auto;
         transform: translateX(200px);
     }
@@ -333,7 +333,7 @@ body{
 }
 @media (max-width:880px){
     .container{
-        width: 740px;
+       max-width: 740px;
         margin: 0 auto;
     }
     .bosqich .container{
@@ -361,7 +361,7 @@ body{
 }
 @media (max-width:780px){
     .container{
-        width: 640px;
+        max-width: 640px;
         margin: 0 auto;
     }
     .navbar{
