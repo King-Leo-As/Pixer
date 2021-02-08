@@ -135,6 +135,8 @@ body{
 }
 .ishlaymiz .container{  
     margin: 100px;
+    width: 1140px;
+    margin: 0 auto;
 }
 .talablar{
     display: flex;
@@ -172,15 +174,15 @@ body{
 }
 .buyurtma{
     background-color: #00BAFC;
-    height: 90vh;
+    padding: 50px;
 }
 .buyurtma__content{
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     color: white;
 }
 .buyurtma__content-title{
-    margin: 20px;
+    margin-bottom: 20px;
 }
 .buyurtma__content-text{
     width: 60%;
@@ -228,4 +230,29 @@ body{
 }
 .submit:hover{
     background-color:  rgb(71, 71, 206);
+}
+.footer-section{
+    background-color: #191919;
+    color: white;
+}
+.footer-section .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list{
+    width: 30%;
+    padding: 50px;
+}
+.footer-list__text{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 0px;
+    line-height: 1.5;
+}
+.footer-item{
+    margin:5px;
+}
+.footer-item__link{
+    text-decoration: none;
+    color: white;
 }
