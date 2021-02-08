@@ -466,5 +466,8 @@ body{
         font-size: 30px;
         padding: 20px;
     }
+    .footer{
+        display: none;
+    }
 
 }
