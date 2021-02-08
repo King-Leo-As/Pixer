@@ -125,7 +125,48 @@ body{
     color: white;
     background-color: #00BAFC;
     border-radius: 5px;
+    transition: 0.3s;
 }
 .xizmatlar-link__sahifa{
     color: #00BAFC;
+}
+.xizmatlar-link__buyurtma:hover{
+    background-color:  rgb(71, 71, 206);
+}
+.ishlaymiz .container{  
+    margin: 100px;
+}
+.talablar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.talabalar-image{
+    width: 30%;
+    margin-right: 20px;
+}
+.talablar__content{
+    width: 40%;
+    margin: 20px;
+}
+.yechimlar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.talablar-link__section{
+    text-align: center;
+}
+.talablar-link{
+    display: inline-block;
+    text-decoration: none;
+    margin: 30px;
+    padding: 13px;
+    color: white;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.talablar-link:hover{
+    background-color:  rgb(71, 71, 206);
 }
