@@ -50,4 +50,41 @@ body{
 .number:hover{
     background-color: rgb(71, 71, 206);
 }
+.bosqich .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.bosqich__content{
+    width: 45%;
+}
+.bosqich__content-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.bosqich__content-text{
+    line-height: 2;
+    margin-bottom: 20px;
+}
+.bosqich__content-link{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 14px;
+    background-color: #00BAFC;
+    transition: 0.3s;
+}
+.bosqich__content-link:hover{
+    background-color:  rgb(71, 71, 206);
+}
+
+
+
+
+
+
+.bosqich__video{
+    width: 45%;
+}
 
