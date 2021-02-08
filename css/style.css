@@ -4,6 +4,13 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+.visuallyhidden { 
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; width: 1px; 
+    margin: -1px; padding: 0; border: 0; 
+  }
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -55,11 +62,13 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
+    margin-bottom: 90px;
 }
 .bosqich__content{
     width: 45%;
 }
 .bosqich__content-title{
+    font-weight: 600;
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -78,13 +87,45 @@ body{
 .bosqich__content-link:hover{
     background-color:  rgb(71, 71, 206);
 }
-
-
-
-
-
-
 .bosqich__video{
     width: 45%;
 }
-
+.xizmatlar__content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.xizmatlar__content-title{
+    margin-bottom: 10px;
+}
+.xizmatlar__content-text{
+    line-height: 1.5;
+}
+.xizmatlar-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.xizmatlar-item{
+    padding: 15px 60px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 25px;
+    transition: 0.3s;
+}
+.xizmatlar-item:hover{
+    transform: scale(1.1);
+}
+.xizmatlar-link{
+    text-align: center;
+    margin: 50px;
+}
+.xizmatlar-link__buyurtma{
+    text-decoration: none;
+    margin: 30px;
+    padding: 13px;
+    color: white;
+    background-color: #00BAFC;
+    border-radius: 5px;
+}
+.xizmatlar-link__sahifa{
+    color: #00BAFC;
+}
