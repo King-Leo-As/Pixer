@@ -170,3 +170,62 @@ body{
 .talablar-link:hover{
     background-color:  rgb(71, 71, 206);
 }
+.buyurtma{
+    background-color: #00BAFC;
+    height: 90vh;
+}
+.buyurtma__content{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+.buyurtma__content-title{
+    margin: 20px;
+}
+.buyurtma__content-text{
+    width: 60%;
+    margin: 0 auto;
+}
+.form-section{
+    margin: 0 auto;
+    padding: 30px;
+    width: 380px;
+    height: 270px;
+    background-color: white;
+    border-radius: 5px;
+}
+.form-section__fill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fill__label{
+    margin: 10px;
+}
+.label__input{
+    width: 300px;
+    padding: 15px;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.fill__select{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    background-color: #F3F3F3;
+    outline: none;
+}
+.submit{
+    border: none;
+    background-color: #00BAFC;
+    padding: 10px;
+    margin-top: 20px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.submit:hover{
+    background-color:  rgb(71, 71, 206);
+}
