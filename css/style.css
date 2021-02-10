@@ -225,6 +225,7 @@ body{
     margin-top: 20px;
     transition: 0.3s;
     border-radius: 5px;
+    color: white;
 }
 .submit:hover{
     background-color:  rgb(71, 71, 206);
@@ -277,21 +278,21 @@ body{
         max-width: 840px;
         margin: 0 auto;
     }
-    .ishlaymiz .container{  
+    /* .ishlaymiz .container{  
         width: 740px;
         margin: 0 auto;
-    }
+    } */
 }
 @media (max-width:980px){
     .container{
         max-width: 740px;
         margin: 0 auto;
     }
-    .ishlaymiz .container{  
+    /* .ishlaymiz .container{  
         max-width: 740px;
         margin: 0 auto;
         transform: translateX(200px);
-    }
+    } */
     .nav-list{
         display: none;
     }
@@ -304,13 +305,13 @@ body{
         height: 40px;
         display: block;
     }
-    .talablar__content{
+    /* .talablar__content{
         margin-left: 100px;
-    }
+    } */
     .bosqich .container{
         display: flex;
         flex-direction: column;
-        transform: translateX(200px);
+        /* transform: translateX(200px); */
     }
     .bosqich__content{
         width: 90%;
@@ -322,7 +323,7 @@ body{
         margin: 0 auto;
     }
     .xizmatlar .container{
-        transform: translateX(200px);
+        /* transform: translateX(200px); */
     }
 }
 @media (max-width:880px){
@@ -333,7 +334,7 @@ body{
     .bosqich .container{
         display: flex;
         flex-direction: column;
-        transform: translateX(300px);
+        /* transform: translateX(300px); */
     }
     .bosqich__content{
         width: 100%;
@@ -342,15 +343,15 @@ body{
     .bosqich__video{
         width: 100%;
         margin: 0 auto;
-        transform: translateX(100px);
+        /* transform: translateX(100px); */
     }
     .xizmatlar .container{
-        transform: translateX(300px);
+        /* transform: translateX(300px); */
     }
     .ishlaymiz .container{  
         width: 740px;
         margin: 0 auto;
-        transform: translateX(300px);
+        /* transform: translateX(300px); */
     }
 }
 @media (max-width:780px){
@@ -381,12 +382,12 @@ body{
         padding: 30px;
     }
     .iframe{
-        width: 900px;
-        height: 500px;
+        width: 90%;
+        
     }
     .bosqich__video{
         margin-top: 20px;
-        transform: translateX(-70px);
+        /* transform: translateX(-70px); */
     }
     .talablar{
         display: flex;
@@ -405,7 +406,7 @@ body{
     .talabalar-image{
         width: 100%;
         margin: 0 auto;
-        transform: translateX(200px);
+        /* transform: translateX(200px); */
 
     }
     .talabalar-image__photo{
@@ -418,11 +419,15 @@ body{
     .xizmatlar__content-text{
         font-size: 30px;
     }
+    .talabalar-image{
+        width: 90%;
+        margin: 0 auto;
+    }
     .xizmatlar-item{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 800px;
+        /* width: 800px; */
         margin: 0 auto;
         margin: 10px;
     }
@@ -445,23 +450,29 @@ body{
         font-size: 30px;
     }
     .form-section{
-        width: 800px;
-        height: 500px;
+        width: 60%
+    }
+    
+    .fill__label{
+        width: 100%;
     }
     .label__input{
-        width: 700px;
-        height: 100px;
+         width: 90%;
     }
     .fill__select{
-        width: 700px;
-        height: 100px;
+            width: 90%;
+            transform: translateX(-18px);
+            border-radius: 5px;
+            
+
     }
     .submit{
-        font-size: 30px;
-        padding: 20px;
+        width: 50%;
     }
     .footer-section{
-        display: none;
+        display: flex;
+        flex-direction: column;
     }
+
 
 }
