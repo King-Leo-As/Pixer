@@ -278,21 +278,14 @@ body{
         max-width: 840px;
         margin: 0 auto;
     }
-    /* .ishlaymiz .container{  
-        width: 740px;
-        margin: 0 auto;
-    } */
+    
 }
 @media (max-width:980px){
     .container{
         max-width: 740px;
         margin: 0 auto;
     }
-    /* .ishlaymiz .container{  
-        max-width: 740px;
-        margin: 0 auto;
-        transform: translateX(200px);
-    } */
+   
     .nav-list{
         display: none;
     }
@@ -305,13 +298,11 @@ body{
         height: 40px;
         display: block;
     }
-    /* .talablar__content{
-        margin-left: 100px;
-    } */
+    
     .bosqich .container{
         display: flex;
         flex-direction: column;
-        /* transform: translateX(200px); */
+       
     }
     .bosqich__content{
         width: 90%;
@@ -321,9 +312,6 @@ body{
     .bosqich__video{
         width: 90%;
         margin: 0 auto;
-    }
-    .xizmatlar .container{
-        /* transform: translateX(200px); */
     }
 }
 @media (max-width:880px){
@@ -343,15 +331,13 @@ body{
     .bosqich__video{
         width: 100%;
         margin: 0 auto;
-        /* transform: translateX(100px); */
+        
     }
-    .xizmatlar .container{
-        /* transform: translateX(300px); */
-    }
+    
     .ishlaymiz .container{  
         width: 740px;
         margin: 0 auto;
-        /* transform: translateX(300px); */
+        
     }
 }
 @media (max-width:780px){
@@ -360,15 +346,17 @@ body{
         margin: 0 auto;
     }
     .navbar{
-        height: 100px;
+        width: 100%;
+        position: sticky;
     }
     .navbar__logo{
         margin-top: 20px;
-        width: 90px;
+        width: 20%;
+        margin-bottom: 20px;
     }
     .burger{
         margin-top: 20px;
-        width: 90px;
+        width: 20%;
     }
     .bosqich__content-title{
         font-size: 50px;
@@ -387,7 +375,6 @@ body{
     }
     .bosqich__video{
         margin-top: 20px;
-        /* transform: translateX(-70px); */
     }
     .talablar{
         display: flex;
@@ -406,8 +393,6 @@ body{
     .talabalar-image{
         width: 100%;
         margin: 0 auto;
-        /* transform: translateX(200px); */
-
     }
     .talabalar-image__photo{
         width: 100px;
@@ -427,7 +412,7 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        /* width: 800px; */
+        
         margin: 0 auto;
         margin: 10px;
     }
