@@ -20,7 +20,6 @@ body{
 }
 .navbar{
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.3);
-    width: 1348px;
 }
 .burger{
     display: none;
@@ -37,7 +36,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    
 }
 .nav-item{
     margin: 20px 0px;
@@ -136,11 +135,7 @@ body{
 .xizmatlar-link__buyurtma:hover{
     background-color:  rgb(71, 71, 206);
 }
-.ishlaymiz .container{  
-    margin: 100px;
-    width: 1140px;
-    margin: 0 auto;
-}
+
 .talablar{
     display: flex;
     align-items: center;
@@ -178,7 +173,6 @@ body{
 .buyurtma{
     background-color: #00BAFC;
     padding: 50px;
-    width: 1348px;
 }
 .buyurtma__content{
     text-align: center;
@@ -195,7 +189,7 @@ body{
 .form-section{
     margin: 0 auto;
     padding: 30px;
-    width: 380px;
+    width: 40%;
     height: 270px;
     background-color: white;
     border-radius: 5px;
@@ -238,7 +232,7 @@ body{
 .footer-section{
     background-color: #191919;
     color: white;
-    width: 1348px;
+    
 }
 .footer-section .container{
     display: flex;
