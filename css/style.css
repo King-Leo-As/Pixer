@@ -319,10 +319,12 @@ body{
        max-width: 740px;
         margin: 0 auto;
     }
+    .navbar{
+        width: ;
+    }
     .bosqich .container{
         display: flex;
         flex-direction: column;
-        /* transform: translateX(300px); */
     }
     .bosqich__content{
         width: 100%;
@@ -399,10 +401,10 @@ body{
         margin: 0 auto;
     }
     .xizmatlar__content-title{
-        font-size: 50px;
+        font-size: 30px;
     }
     .xizmatlar__content-text{
-        font-size: 30px;
+        font-size: 02px;
     }
     .talabalar-image{
         width: 90%;
@@ -460,4 +462,30 @@ body{
     }
 
 
+}
+@media (max-width:680px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    body{
+        font-size: 10px;
+    }
+    .xizmatlar .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .xizmatlar__content{
+    }
+    .talablar__content{
+        width: 90%;
+
+    }
+    .talablar__content-title{
+        font-size: 30px;    
+    }
+    .xizmatlar__content-text{
+        font-size: 20px;
+
+    }
 }
